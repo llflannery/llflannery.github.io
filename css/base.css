@@ -5,6 +5,7 @@
 }
 
 body { 
+    font-family: georgia, serif;
     font-size: 16px;
     line-height: 24px;
 }
@@ -24,18 +25,19 @@ header h1 {
     font-family: helvetica, arial, sans-serif;
     font-size: 22px;
     font-weight: 500;
-    padding: 10px;
+    padding: 10px; /* TRouBLe */
    
 }
 
 header nav {
     float: left;
-    margin-top: 16px;
+    margin-top: 12px;
 }
     
 
 header a {
      color:#aaaaaa;
+    margin-right: 20px;
      text-decoration: none;
 }
 
@@ -49,4 +51,22 @@ header a:hover {
 
 article {
     clear: both;
+    padding: 0 10px 0 10px;
+}
+
+article h1 {
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 4px;
+}
+
+article h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 4px;
+}
+
+footer {
+    font-size: 12px;
+    padding: 0 10px 0 10px;
 }
