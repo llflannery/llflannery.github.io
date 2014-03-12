@@ -5,16 +5,16 @@ body {
     font-family: "Times New Roman", Times, serif;
 }
 
+
 nav { border-top: 5px solid #454545;
     border-bottom: 5px solid #454545;
     padding-top: 7px;
     padding-bottom: 7px;
     font-family: arial, helvetica, sans-serif;
-    
-}
+    }
 
 nav a {
-    margin-right: 50px;
+    margin-right: 200px;
 }
 
 /* LoVeHAte */
@@ -37,8 +37,18 @@ h1 {
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 7px;
-        
-}
+    }
+
+h1 a:link {color: #ffffff;}
+h1 a:visited { color: #ffffff;}
+h1 a:hover {color: green;}
+h1 a:active {color: green;}
+
+h1 a {
+    text-decoration:none;
+     }
+
+
 
 h2 {
     color: #000000;
@@ -54,12 +64,11 @@ h3 {
 }
 
 aside {
-    width:250px;
-  
-}
+       width:250px;
+  }
 
 aside img {
-width: 25%;
+width: 27%;
 }
 
 
@@ -71,6 +80,15 @@ footer {
     padding-bottom: 7px;
     font-family: arial, helvetica, sans-serif;
 }
+
+footer a {
+    margin-right: 200px;
+}
+
+footer a:link { color: white;}
+footer a:visited { color: white;}
+footer a:hover { color: purple;}
+footer a:active { color: purple; }
 
 
 
@@ -92,7 +110,6 @@ footer {
 
 
 #museum {
-    
 border-style:solid;
 border-color: #ffffff;
 border-width: 10px
@@ -100,13 +117,41 @@ border-width: 10px
 }
 
 #museum img {
-margin-right:60px;
-padding-top: 20px;
-padding-bottom: 20px;
-padding-left: 20px;
 
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;
+
+}
+
+#alligator {
+border-style: solid;
+border-color: #ffffff;
+border-width: 10px;
+}
+
+#alligator img {
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+#sun {
+border-style: solid;
+border-color: #ffffff;
+border-width: 10px;
+}
+
+#sun img {
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 .articlemargin {
 margin-left: 25px;
 }
+
