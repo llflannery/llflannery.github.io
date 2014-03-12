@@ -56,12 +56,18 @@ h2 {
     font-family: arial, helvetica, sans-serif;
 }
 
+
 h3 {
     text-decoration: underline;
     color: #000000;
     font-size: 20px;
     font-family: "Times New Roman", Times, serif;
 }
+
+article a:link {color: blue;}
+article a:visited { color: blue;}
+article a:hover {color: black;}
+article a:active {color: black;}
 
 aside {
        width:250px;
