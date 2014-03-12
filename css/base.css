@@ -13,6 +13,19 @@ nav { border-top: 5px solid #454545;
     
 }
 
+nav a {
+    margin-right: 50px;
+}
+
+/* LoVeHAte */
+
+nav a:link { color: white;}
+nav a:visited { color: white;}
+nav a:hover { color: purple;}
+nav a:active { color: purple; }
+
+.resume span { color: yellow;}
+
 h1 {
     background-color: #00A876;
     color: #5FD4B1;
@@ -40,6 +53,16 @@ h3 {
     font-family: "Times New Roman", Times, serif;
 }
 
+aside {
+    width:250px;
+  
+}
+
+aside img {
+width: 25%;
+}
+
+
 footer {
     margin-top: 20px;
      border-top: 5px solid #454545;
@@ -57,8 +80,31 @@ footer {
     border-width: 5px;
     border-color: #0D56A6;
     margin-top: 30px;
+    margin-left: 270px;
     padding-left: 20px; 
+      
+}
+
+.aboutimg {
+    float: left;
+    margin-right: 20px;
+}
+
+
+#museum {
     
+border-style:solid;
+border-color: #ffffff;
+border-width: 10px
+
+}
+
+#museum img {
+margin-right:60px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+
 }
 
 .articlemargin {
