@@ -1,3 +1,5 @@
+/* General CSS for all 4 pages */
+
 body {
     background-color: #006D4C;
     color: #ffffff;
@@ -8,23 +10,24 @@ body {
 
 nav { border-top: 5px solid #454545;
     border-bottom: 5px solid #454545;
+    padding-left: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
     font-family: arial, helvetica, sans-serif;
     }
 
 nav a {
-    margin-right: 200px;
+    margin-right: 230px;
 }
 
 /* LoVeHAte */
 
-nav a:link { color: white;}
-nav a:visited { color: white;}
-nav a:hover { color: purple;}
-nav a:active { color: purple; }
+nav a:link { color: #ffffff;}
+nav a:visited { color: #ffffff;}
+nav a:hover { color: #000000;}
+nav a:active { color: #000000; }
 
-.resume span { color: yellow;}
+
 
 h1 {
     background-color: #00A876;
@@ -38,16 +41,6 @@ h1 {
     padding-bottom: 6px;
     padding-left: 7px;
     }
-
-h1 a:link {color: #ffffff;}
-h1 a:visited { color: #ffffff;}
-h1 a:hover {color: green;}
-h1 a:active {color: green;}
-
-h1 a {
-    text-decoration:none;
-     }
-
 
 
 h2 {
@@ -64,26 +57,25 @@ h3 {
     font-family: "Times New Roman", Times, serif;
 }
 
-article a:link {color: blue;}
-article a:visited { color: blue;}
-article a:hover {color: black;}
-article a:active {color: black;}
-
-aside {
-       width:250px;
-  }
-
-aside img {
-width: 27%;
+article {
+margin-left: 25px;
+margin-right: 25px;
 }
+
+article a:link {color: #000066;}
+article a:visited { color: #000066;}
+article a:hover {color: #000000;}
+article a:active {color: #000000;}
+
 
 
 footer {
     margin-top: 20px;
-     border-top: 5px solid #454545;
+    border-top: 5px solid #454545;
     border-bottom: 5px solid #454545;
     padding-top: 7px;
     padding-bottom: 7px;
+    padding-left: 20px;
     font-family: arial, helvetica, sans-serif;
 }
 
@@ -97,67 +89,100 @@ footer a:hover { color: purple;}
 footer a:active { color: purple; }
 
 
+/*This CSS applies to the Home/index.html page */
 
-
-.about {
-    border-style: solid;
-    border-width: 5px;
-    border-color: #0D56A6;
+.home {   /*This puts the border around my paragraph*/
+    border-style: double;
+    border-width: 7px;
+    border-color: #C9C9C9;
     margin-top: 30px;
     margin-left: 270px;
     padding-left: 20px; 
       
 }
 
-.aboutimg {
+.homeimg {
     float: left;
-    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    margin-left: 7px;
 }
 
+h1 a:link {color: #ffffff;}
+h1 a:visited { color: #ffffff;}
+h1 a:hover {color: green;}
+h1 a:active {color: green;}
 
-#museum {
+h1 a {
+    text-decoration:none;
+     }
+
+aside { /* This is for my social media site links. */
+   width: 200px;
+   margin-left: 25px;
+   }
+
+aside img {
+width: 27%;
+}
+
+/*This CSS applies to the My Experience page */
+.audio {
+    border-style:double;
+    border-width: 6px;
+    border-color: #9C9C9C;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    padding-top: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+figure {
+    float: right;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-left: 30px;
+
+}
+
+figcaption {
+    font-family: "arial", "sans-serif";
+    font-size: 13px;
+    color: #000000;
+    
+    }
+/*This CSS applies to the My Resume page */
+span {
+    color: blue;
+    float: right;
+    margin-right: 250px;
+}
+
+/*This CSS applies to the My Clips page */
+.clips {  
 border-style:solid;
 border-color: #ffffff;
-border-width: 10px
+border-width: 7px
 
 }
 
-#museum img {
+.clips img {
 
-padding-top: 15px;
-padding-bottom: 15px;
-padding-left: 15px;
-padding-right: 15px;
-
-}
-
-#alligator {
-border-style: solid;
-border-color: #ffffff;
-border-width: 10px;
-}
-
-#alligator img {
 padding-top: 15px;
 padding-bottom: 15px;
 padding-left: 15px;
 padding-right: 15px;
 }
 
-#sun {
-border-style: solid;
-border-color: #ffffff;
-border-width: 10px;
-}
-
-#sun img {
+#clips iframe {
 padding-top: 15px;
 padding-bottom: 15px;
 padding-left: 15px;
 padding-right: 15px;
 }
 
-article {
-margin-left: 25px;
-}
 
