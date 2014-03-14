@@ -1,188 +1,144 @@
 /* General CSS for all 4 pages */
 
+/* The coding came so much easier than the design colors did. I need a lot of help on the colors. I went with neutrals because everything else looked pretty garish.*/
+
 body {
-    background-color: #006D4C;
-    color: #ffffff;
+    background-color: #5E5E5E;
+    color: #C4C4C4;
     font-size: 17px;
-    font-family: "Times New Roman", Times, serif;
-}
+    font-family: "Times New Roman", "Times", serif; }
 
-
-nav { border-top: 5px solid #454545;
-    border-bottom: 5px solid #454545;
-    padding-left: 20px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    font-family: arial, helvetica, sans-serif;
-    }
-
+/*TRouBLe */
+nav { border-top: 5px solid #303030;
+    border-bottom: 5px solid #303030;
+    padding:7px 0 7px 20px;
+    font-family: arial, helvetica, sans-serif; }
+    
 nav a {
-    margin-right: 230px;
-}
+    margin-right: 230px; }
 
-/* LoVeHAte */
 
-nav a:link { color: #ffffff;}
-nav a:visited { color: #ffffff;}
+nav a:link { color: #BABABA;}    /* LoVeHAte */
+nav a:visited { color: #BABABA;}
 nav a:hover { color: #000000;}
 nav a:active { color: #000000; }
 
 
 
 h1 {
-    background-color: #00A876;
-    color: #5FD4B1;
+    background-color: #071C71;
+    color: #ffffff;
     width: 100%;
     font-size: 52px;
     font-family: arial, helvetica, sans-serif; 
-    margin-top: 7px;
-    margin-bottom: 15px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 7px;
-    }
+    margin:7px 0 15px 0;
+    padding:6px 0 6px 7px;   }
 
 
 h2 {
     color: #000000;
     font-size: 24px;
-    font-family: arial, helvetica, sans-serif;
-}
+    font-family: arial, helvetica, sans-serif; }
 
 
 h3 {
     text-decoration: underline;
     color: #000000;
     font-size: 20px;
-    font-family: "Times New Roman", Times, serif;
-}
+    font-family: "Times New Roman", Times, serif; }
 
 article {
-margin-left: 25px;
-margin-right: 25px;
-}
+    margin:0 25px 0 25px; }
 
-article a:link {color: #000066;}
-article a:visited { color: #000066;}
+article a:link {color: #071C71;}
+article a:visited { color: #071C71;}
 article a:hover {color: #000000;}
 article a:active {color: #000000;}
 
 
-
 footer {
     margin-top: 20px;
-    border-top: 5px solid #454545;
-    border-bottom: 5px solid #454545;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 20px;
-    font-family: arial, helvetica, sans-serif;
-}
+    border-top: 5px solid #303030;
+    border-bottom: 5px solid #303030;
+    padding:7px 0 7px 20px;
+    font-family:"arial", "helvetica", sans-serif; }
 
 footer a {
-    margin-right: 200px;
-}
+    margin-right: 200px; }
 
-footer a:link { color: white;}
-footer a:visited { color: white;}
-footer a:hover { color: purple;}
-footer a:active { color: purple; }
+footer a:link { color: #BABABA;}
+footer a:visited { color: #BABABA;}
+footer a:hover { color: #000000;}
+footer a:active { color: #000000; }
+
 
 
 /*This CSS applies to the Home/index.html page */
 
-.home {   /*This puts the border around my paragraph*/
-    border-style: double;
-    border-width: 7px;
-    border-color: #C9C9C9;
-    margin-top: 30px;
-    margin-left: 270px;
-    padding-left: 20px; 
-      
-}
+.home {   
+    border:7px double #474747;
+    margin:30px 0 0 270px;
+    padding-left: 20px;
+    padding-right:20px}
 
 .homeimg {
     float: left;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 15px;
-    margin-left: 7px;
-}
+    margin:30px 15px 30px 7px; }
 
 h1 a:link {color: #ffffff;}
 h1 a:visited { color: #ffffff;}
-h1 a:hover {color: green;}
-h1 a:active {color: green;}
+h1 a:hover {color: #5E5E5E;}
+h1 a:active {color: #5E5E5E;}
 
 h1 a {
-    text-decoration:none;
-     }
+    text-decoration:none; }
 
-aside { /* This is for my social media site links. */
+aside { /* This is for my social media site links on my home page. */
    width: 200px;
-   margin-left: 25px;
-   }
+   margin-left: 25px; }
 
 aside img {
-width: 27%;
-}
+    width: 27%; }
 
-/*This CSS applies to the My Experience page */
-.audio {
-    border-style:double;
-    border-width: 6px;
-    border-color: #9C9C9C;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    padding-bottom: 10px;
-    padding-top: 4px;
-    padding-left: 15px;
-    padding-right: 15px;
-    
-}
-
-figure {
-    float: right;
-    margin-left: 15px;
-    margin-top: 15px;
-    padding-left: 30px;
-
-}
-
-figcaption {
-    font-family: "arial", "sans-serif";
-    font-size: 13px;
-    color: #000000;
-    
-    }
-/*This CSS applies to the My Resume page */
-span {
-    color: blue;
-    float: right;
-    margin-right: 250px;
-}
 
 /*This CSS applies to the My Clips page */
 .clips {  
-border-style:solid;
-border-color: #ffffff;
-border-width: 7px
-
-}
+border:7px solid #B3B3B3; }
 
 .clips img {
-
-padding-top: 15px;
-padding-bottom: 15px;
-padding-left: 15px;
-padding-right: 15px;
-}
+padding:15px 15px 15px 15px; }
 
 .clips iframe {
-padding-top: 15px;
-padding-bottom: 15px;
-padding-left: 15px;
-padding-right: 15px;
-}
+padding:15px 15px 15px 15px; }
 
 
+
+/*This CSS applies to the My Resume page */
+span {
+    color: #071C71;
+    float: right;
+    margin-right: 250px; }
+
+em {
+    color: #071C71; }
+
+h3 em {
+color: #000000; }
+
+
+
+/*This CSS applies to the My Experience page */
+.audio {
+    border:6px double #474747;
+    margin:15px 0 15px 0;
+    padding:2px 15px 10px 15px; }
+
+figure {
+    float: right;
+    margin:15px 0 0 15px;
+    padding-left: 30px; }
+
+figcaption {
+    font-family: "arial", "helvetica","sans-serif";
+    font-size: 13px;
+    color: #000000; } 
