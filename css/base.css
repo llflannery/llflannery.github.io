@@ -85,6 +85,35 @@ footer a:active { color: #000000; }
     float: left;
     margin:30px 15px 30px 7px; }
 
+@media screen and (max-width: 600px) {
+    body {
+        padding: 5%;
+    }
+    
+    h1 a {
+        font-size: 35px;
+         }
+    
+    nav a {
+        display: block;
+        margin: 0;
+        }
+     footer a {
+    display: block;
+        margin: 0;
+    }
+    .homeimg {
+        width: 80%;
+        margin: 10%;
+                }
+    
+    .home {
+        width: 95%;
+        clear: both;
+        margin-left: 0%;
+           }
+   }
+
 h1 a:link {color: #ffffff;}
 h1 a:visited { color: #ffffff;}
 h1 a:hover {color: #5E5E5E;}
