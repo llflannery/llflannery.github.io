@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
     <head>
@@ -12,7 +11,7 @@
              
                    
            
-                <a href="index.html"> <img src="img/lauren-logo3.png" width="100%" alt="My Logo" title="My Logo"> </a> 
+                <a href="index.html"> <img src="img/lauren-logo2.png" width="100%"> </a> 
            
                    
                  </header>
@@ -25,13 +24,12 @@
                 <a href="clips.html">My Clips</a>
                 <a href="resume.html">My Resume</a>
                 <a href="exp.html">My Experiences</a>
-                <a href="projects.html">What I'm Learning Now</a>
                 
                            
             </nav>
         
         
-         <img class="homeimg" src="img/profpic.jpg" width="25%" title="Profile picture 2014" alt="Profile Picture 2014">
+         <img class="homeimg" src="img/profpic.jpg" width=25% title="Profile picture 2014" alt="Profile Picture 2014">
     
         <article class="home">
          <p>
@@ -47,15 +45,17 @@
         </article>
     
     <aside>
-    
+    <p> 
+        My Social Media Sites:
+    </p>
         <a href="https://twitter.com/LaurenFlannery3" target="_blank">
-        <img src="img/newtwitter-logo.jpg" title="My Twitter Profile" alt="My Twitter Profile">
+        <img src="img/newtwitter-logo.JPG" title="My Twitter Profile" alt="My Twitter Profile">
         </a>
         <a href="http://www.linkedin.com/pub/lauren-flannery/84/621/2bb" target="_blank">
-        <img src="img/newlinkedin-logo.png" title="My LinkedIn Profile" alt="My LinkedIn Profile">
+        <img src="img/newlinkedin-logo.PNG" title="My LinkedIn Profile" alt="My LinkedIn Profile">
         </a>
         <a href="http://fromthelittleredbox.wordpress.com/" target="_blank">
-        <img src="img/newwpress-logo.png" title="My Blog" alt="My Blog">
+        <img src="img/newwpress-logo.PNG" title="My Blog" alt="My Blog">
         </a>
     
     </aside>
@@ -67,7 +67,6 @@
                 <a href="clips.html">My Clips</a>
                 <a href="resume.html">My Resume</a>
                 <a href="exp.html">My Experiences</a>
-                <a href="projects.html">What I'm Learning Now</a>
                              
     </footer>
     </div>

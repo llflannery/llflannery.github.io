@@ -3,36 +3,36 @@
 /* The coding came so much easier than the design colors did. I need a lot of help on the colors. I went with neutrals because everything else looked pretty garish.*/
 
 body {
-    background-color: #5E5E5E;
-    color: #C4C4C4;
+    background-color: #ffffff;
+    color: #000000;
     font-size: 17px;
     font-family: "Times New Roman", "Times", serif; }
 
+#wrapper {max-width:960px;
+margin-left:auto;
+margin-right:auto;}
+
+    
+
 /*TRouBLe */
-nav { border-top: 5px solid #303030;
-    border-bottom: 5px solid #303030;
-    padding:7px 0 7px 20px;
+nav { border-top: 5px solid #0000CC;
+    border-bottom: 5px solid #0000CC;
+    padding:7px 0 7px 0px;
+    clear:both;
     font-family: arial, helvetica, sans-serif; }
     
 nav a {
-    margin-right: 230px; }
+    margin-right: 40px;
+    margin-left: 40px;
+}
 
 
-nav a:link { color: #BABABA;}    /* LoVeHAte */
-nav a:visited { color: #BABABA;}
-nav a:hover { color: #000000;}
-nav a:active { color: #000000; }
+nav a:link { color: #000000;}    /* LoVeHAte */
+nav a:visited { color: #000000;}
+nav a:hover { color: #A0A0A0;}
+nav a:active { color: #A0A0A0; }
 
 
-
-h1 {
-    background-color: #071C71;
-    color: #ffffff;
-    width: 100%;
-    font-size: 52px;
-    font-family: arial, helvetica, sans-serif; 
-    margin:7px 0 15px 0;
-    padding:6px 0 6px 7px;   }
 
 
 h2 {
@@ -58,25 +58,27 @@ article a:active {color: #000000;}
 
 footer {
     margin-top: 20px;
-    border-top: 5px solid #303030;
-    border-bottom: 5px solid #303030;
+    border-top: 5px solid #383838;
+    border-bottom: 5px solid #383838;
     padding:7px 0 7px 20px;
     font-family:"arial", "helvetica", sans-serif; }
 
 footer a {
-    margin-right: 200px; }
+    margin-right: 40px;
+    margin-left: 40px;}
 
-footer a:link { color: #BABABA;}
-footer a:visited { color: #BABABA;}
-footer a:hover { color: #000000;}
-footer a:active { color: #000000; }
+footer a:link { color: #000000;}
+footer a:visited { color: #000000;}
+footer a:hover { color: #A0A0A0;}
+footer a:active { color: #A0A0A0; }
 
 
 
 /*This CSS applies to the Home/index.html page */
 
-.home {   
-    border:7px double #474747;
+.home { 
+    max-width: 960px;
+    border:7px double #585858;
     margin:30px 0 0 270px;
     padding-left: 20px;
     padding-right:20px}
@@ -85,19 +87,27 @@ footer a:active { color: #000000; }
     float: left;
     margin:30px 15px 30px 7px; }
 
+aside a:hover {border-bottom: 5px solid #A0A0A0 }
+
 @media screen and (max-width: 600px) {
+    
     body {
         padding: 5%;
+    }
+    
+    .logo {
+        width:"80%";
     }
     
     h1 a {
         font-size: 35px;
          }
     
-    nav a {
+    nav a  {
         display: block;
         margin: 0;
         }
+    
      footer a {
     display: block;
         margin: 0;
@@ -111,8 +121,8 @@ footer a:active { color: #000000; }
         width: 95%;
         clear: both;
         margin-left: 0%;
-           }
-   }
+                   }
+               }
 
 h1 a:link {color: #ffffff;}
 h1 a:visited { color: #ffffff;}
@@ -132,24 +142,22 @@ aside img {
 
 /*This CSS applies to the My Clips page */
 .clips {  
-border:7px solid #B3B3B3; }
+border:6px double #787878; }
 
 .clips img {
-padding:15px 15px 15px 15px; }
-
-.clips iframe {
 padding:15px 15px 15px 15px; }
 
 
 
 /*This CSS applies to the My Resume page */
 span {
-    color: #071C71;
-    float: right;
-    margin-right: 250px; }
+    text-decoration:underline;
+    text-decoration-color: #0000CC;
+    
+     }
 
 em {
-    color: #071C71; }
+    color: #0000CC; }
 
 h3 em {
 color: #000000; }
@@ -171,3 +179,23 @@ figcaption {
     font-family: "arial", "helvetica","sans-serif";
     font-size: 13px;
     color: #000000; } 
+
+/*This CSS applies to the My Projects page */
+
+.blog {border: 5px double #000000;
+        float: left; 
+        display: block;
+        margin: 20px 20px 10px 0;
+        padding: 10px 13px 10px 13px;
+        max-width: 150px;}
+
+
+
+.sub {
+    color: #0000CC;
+    font-size: 14px;
+    
+    
+}
+
+
